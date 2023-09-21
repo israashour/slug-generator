@@ -37,7 +37,7 @@ If you discover any security related issues, please email ashourisra@gmail.com i
 
 ## Credits
 
-- [Author Name][[link-author](https://github.com/israashour)]
+- [Author Name][link-author]
 - [All Contributors][link-contributors]
 
 ## License
@@ -53,5 +53,5 @@ MIT. Please see the [license file](license.md) for more information.
 [link-downloads]: https://packagist.org/packages/slg/slug-generator
 [link-travis]: https://travis-ci.org/slg/slug-generator
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/slg
+[link-author]: https://github.com/israashour
 [link-contributors]: ../../contributors
