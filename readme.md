@@ -37,7 +37,7 @@ If you discover any security related issues, please email ashourisra@gmail.com i
 
 ## Credits
 
-- [Author Name][link-author]
+- [Israa Ashour][link-author]
 - [All Contributors][link-contributors]
 
 ## License
