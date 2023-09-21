@@ -1,5 +1,6 @@
 {
     "name": "slg/slug-generator",
+    "version": "1.0.0",
     "description": ":package_description",
     "license": "MIT",
     "authors": [
