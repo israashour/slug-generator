@@ -25,14 +25,9 @@ class SlugGeneratorServiceProvider extends ServiceProvider
 
         // Publishing the views.
         $this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/slg'),
-        ], 'slug-generator.views');
-
-        // Publishing the routes.
-        $this->publishes([
-            __DIR__.'/../routes/web.php' => base_path('routes/vendor/slg'),
-        ], 'slug-generator.routes');
-
+            _DIR_.'/resources/views' => resource_path('views/vendor/slug-generator'),
+            _DIR_.'/routes/web.php' => base_path('routes/slug-generator.php'),
+        ]);
     }
 
     /**
