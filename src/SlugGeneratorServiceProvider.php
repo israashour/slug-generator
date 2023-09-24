@@ -22,6 +22,17 @@ class SlugGeneratorServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
         }
+
+        // Publishing the views.
+        $this->publishes([
+            __DIR__.'/../resources/views' => base_path('resources/views/vendor/slg'),
+        ], 'slug-generator.views');
+
+        // Publishing the routes.
+        $this->publishes([
+            __DIR__.'/../routes/web.php' => base_path('routes/vendor/slg'),
+        ], 'slug-generator.routes');
+
     }
 
     /**
@@ -62,9 +73,14 @@ class SlugGeneratorServiceProvider extends ServiceProvider
         ], 'slug-generator.config');
 
         // Publishing the views.
-        /*$this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views/vendor/slg'),
-        ], 'slug-generator.views');*/
+        // $this->publishes([
+        //     __DIR__.'/../resources/views' => base_path('resources/views/vendor/slg'),
+        // ], 'slug-generator.views');
+
+        // Publishing the routes.
+        // $this->publishes([
+        //     __DIR__.'/../routes/web.php' => base_path('routes/vendor/slg'),
+        // ], 'slug-generator.routes');
 
         // Publishing assets.
         /*$this->publishes([
