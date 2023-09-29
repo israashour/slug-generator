@@ -10,7 +10,7 @@
             "homepage": "https://github.com/israashour"
         }
     ],
-    "homepage": "https://github.com/israashour/slug-generator",
+    "homepage": "https://github.com/slg/slug-generator",
     "keywords": ["Laravel", "SlugGenerator"],
     "require": {
         "illuminate/support": "~10"
