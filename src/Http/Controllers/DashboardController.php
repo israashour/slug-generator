@@ -1,6 +1,6 @@
 <?php
 
-namespace slg\SlugGenerator\Http\Controllers;
+namespace Slg\SlugGenerator\Http\Controllers;
 
 use App\Models\SlugHistory;
 use Illuminate\Routing\Controller;

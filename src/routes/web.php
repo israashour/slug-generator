@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use slg\SlugGenerator\Http\Controllers\DashboardController;
+use Slg\SlugGenerator\Http\Controllers\DashboardController;
 
 Route::group( [], function () {
     Route::get('/dashboard', DashboardController::class, 'index')->name('index');
