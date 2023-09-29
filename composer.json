@@ -1,6 +1,6 @@
 {
     "name": "slg/slug-generator",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": ":package_description",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
             "homepage": "https://github.com/israashour"
         }
     ],
-    "homepage": "https://github.com/slg/slug-generator",
+    "homepage": "https://github.com/israashour/slug-generator",
     "keywords": ["Laravel", "SlugGenerator"],
     "require": {
         "illuminate/support": "~10"
